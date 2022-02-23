@@ -1,7 +1,7 @@
 node {
     def mvnHome
     stage('Git') {
-        git 'https://github.com/jussaragranja/SeleniumEasyTest2.git'
+        git 'https://github.com/lineuve/SeleniumEasyTest2.git'
         mvnHome = tool 'M3'
     }
     stage('Test') {
